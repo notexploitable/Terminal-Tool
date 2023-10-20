@@ -17,6 +17,8 @@ stop_program = False
 request_count = 0
 request_count_lock = threading.Lock()
 
+print(Fore.CYAN + "press 'q' to stop sending requests")
+
 def send_requests():
     global stop_program
     global request_count
@@ -38,12 +40,9 @@ for _ in range(num_threads):
     thread.daemon = True
     thread.start()
     threads.append(thread)
-
-print(Fore.CYAN + "press 'q' to stop sending requests")
-keyboard.wait("q")
-stop_program = True
-
+    
 for thread in threads:
     thread.join()
-
-print(Fore.MAGENTA + "\ntotal requests > ", request_count)
+    
+keyboard.wait("q")
+stop_program = True
