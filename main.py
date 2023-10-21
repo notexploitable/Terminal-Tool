@@ -2,13 +2,12 @@ import requests, threading, keyboard, sys, time
 from colorama import Fore
 
 logo = """
- ▄▀▀▀█▀▀▄  ▄▀▀▀▀▄   ▄▀▀▀▀▄   ▄▀▀▀▀▄     
-█    █  ▐ █      █ █      █ █    █      
-▐   █     █      █ █      █ ▐    █      
-   █      ▀▄    ▄▀ ▀▄    ▄▀     █       
- ▄▀         ▀▀▀▀     ▀▀▀▀     ▄▀▄▄▄▄▄▄▀ 
-█                             █         
-▐                             ▐         
+I)iiii   C)ccc  K)   kk  E)eeeeee R)rrrrr  
+  I)    C)   cc K)  kk   E)       R)    rr 
+  I)   C)       K)kkk    E)eeeee  R)  rrr  
+  I)   C)       K)  kk   E)       R) rr    
+  I)    C)   cc K)   kk  E)       R)   rr  
+I)iiii   C)ccc  K)    kk E)eeeeee R)    rr 
 """
 print(Fore.MAGENTA + logo)
 
