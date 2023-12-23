@@ -1,7 +1,7 @@
 import requests, threading, keyboard, sys, os
 from colorama import Fore
 
-os.system("cls && title terminal-tool")
+os.system("cls && title temrinal tool")
 
 logo = """
  ▄▀▀▀█▀▀▄  ▄▀▀▀▀▄   ▄▀▀▀▀▄   ▄▀▀▀▀▄     
